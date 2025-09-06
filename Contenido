@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía: La Evolución de Poiesis al Cíborg</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a202c;
+            color: #FFFFEA;
+        }
+        .text-accent { color: #FF5E5B; }
+        .text-highlight { color: #FFED66; }
+        .bg-card { background-color: #2d3748; }
+        .border-accent { border-color: #00CECB; }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container mx-auto p-4 md:p-8">
+    
+        <header class="text-center mb-16">
+            <div class="mb-4">
+                <div class="inline-block px-4 py-2 bg-highlight text-gray-800 rounded-lg font-bold text-lg">LOGO</div>
+            </div>
+            <h1 class="text-5xl md:text-7xl font-black text-highlight uppercase tracking-wider">Poiesis</h1>
+            <p class="text-xl md:text-2xl mt-4 max-w-3xl mx-auto">Un viaje filosófico desde la <span class="text-accent">creación</span> antigua hasta el <span class="text-accent">cíborg</span> posmoderno.</p>
+        </header>
+    
+        <main class="space-y-20">
+    
+            <section id="platon" class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                <div class="md:col-span-1 flex justify-center order-1 md:order-1">
+                    <img src="https://placehold.co/200x200/FFED66/1a202c?text=Platón" alt="Imagen de Platón" class="rounded-full shadow-lg border-4 border-highlight">
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-2xl p-8 md:col-span-2 order-2 md:order-2">
+                    <h2 class="text-3xl font-bold text-highlight mb-4">Platón: Creación como Imitación</h2>
+                    <p class="mb-4 text-lg">Para Platón, poiesis era cualquier acto de creación, pero el arte era una simple imitación (mímesis). Consideraba que la creación artística era una copia de una copia, alejándose de las "Ideas" verdaderas y perfectas.</p>
+                    <div class="space-y-2 text-center mt-6">
+                        <div class="bg-gray-700 p-3 rounded-lg shadow-inner"><span class="font-bold text-highlight">1. Las Ideas (Verdad Pura)</span></div>
+                        <div class="text-2xl font-black text-accent">↓</div>
+                        <div class="bg-gray-600 p-3 rounded-lg shadow-inner"><span class="font-bold text-white">2. Mundo Físico (Copia de las Ideas)</span></div>
+                        <div class="text-2xl font-black text-accent">↓</div>
+                        <div class="bg-gray-500 p-3 rounded-lg shadow-inner"><span class="font-bold text-gray-300">3. Arte (Copia de la Copia)</span></div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="aristoteles" class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                <div class="md:col-span-2 bg-gray-800 rounded-lg shadow-2xl p-8 order-2 md:order-1">
+                    <h2 class="text-3xl font-bold text-highlight mb-4">Aristóteles: Producción vs. Acción</h2>
+                    <p class="mb-4 text-lg">Aristóteles estableció una distinción crucial. La poiesis es una producción con un fin externo (la obra), mientras que la praxis es una acción con un fin en sí misma (la ética). El arte, para él, no solo imita, sino que reconfigura lo posible.</p>
+                    <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-8 mt-6">
+                        <div class="flex-1 bg-gray-700 p-4 rounded-lg text-center shadow-inner">
+                            <h4 class="text-xl font-bold text-highlight">Poiesis</h4>
+                            <p class="text-sm mt-2">Producción</p>
+                            <p class="text-sm mt-1 text-gray-400">Orientada a un resultado externo</p>
+                        </div>
+                        <div class="flex-1 bg-gray-700 p-4 rounded-lg text-center shadow-inner">
+                            <h4 class="text-xl font-bold text-highlight">Praxis</h4>
+                            <p class="text-sm mt-2">Acción</p>
+                            <p class="text-sm mt-1 text-gray-400">Cuyo fin está en sí misma</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:col-span-1 flex justify-center order-1 md:order-2">
+                    <img src="https://placehold.co/200x200/00CECB/1a202c?text=Aristóteles" alt="Imagen de Aristóteles" class="rounded-full shadow-lg border-4 border-accent">
+                </div>
+            </section>
+            
+            <section id="heidegger" class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                <div class="md:col-span-1 flex justify-center order-1 md:order-1">
+                    <img src="https://placehold.co/200x200/FF5E5B/1a202c?text=Heidegger" alt="Imagen de Martin Heidegger" class="rounded-full shadow-lg border-4 border-accent">
+                </div>
+                <div class="md:col-span-2 bg-gray-800 rounded-lg shadow-2xl p-8 order-2 md:order-2">
+                    <h2 class="text-3xl font-bold text-highlight mb-4">Heidegger: Poiesis como Revelación</h2>
+                    <p class="mb-4 text-lg">Heidegger redefine la poiesis como un "traer a la presencia". No es fabricar, sino un acto de desocultamiento (alétheia) donde la verdad emerge. Distingue radicalmente este acto del de la técnica moderna, que no revela, sino que explota y controla.</p>
+                    <div class="flex flex-col justify-center space-y-4 md:space-x-8 mt-6">
+                        <div class="flex-1 bg-gray-700 p-4 rounded-lg text-center shadow-inner">
+                            <h4 class="text-xl font-bold text-highlight">El Arte como Poiesis</h4>
+                            <p class="text-sm mt-2">Deja que la verdad emerja.</p>
+                        </div>
+                        <div class="flex-1 bg-gray-700 p-4 rounded-lg text-center shadow-inner">
+                            <h4 class="text-xl font-bold text-highlight">La Técnica Moderna</h4>
+                            <p class="text-sm mt-2">Explota y controla la naturaleza.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="haraway" class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                <div class="md:col-span-2 bg-gray-800 rounded-lg shadow-2xl p-8 order-2 md:order-1">
+                    <h2 class="text-3xl font-bold text-highlight mb-4">Haraway: El Cíborg como Poiesis Política</h2>
+                    <p class="mb-4 text-lg">Donna Haraway propone al cíborg como la poiesis de nuestro tiempo. No es ciencia ficción, sino nuestra realidad híbrida. El cíborg es una figura política que rompe las dualidades tradicionales, creando nuevas posibilidades de identidad y alianzas en un mundo interconectado por la tecnología.</p>
+                    <div class="flex flex-col items-center justify-center space-y-4 mt-6">
+                        <div class="border-4 border-accent p-4 rounded-full shadow-lg">
+                            <span class="text-2xl font-bold text-highlight">CÍBORG</span>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 text-center mt-4">
+                            <div class="bg-gray-700 p-3 rounded-lg">Humano / Máquina</div>
+                            <div class="bg-gray-700 p-3 rounded-lg">Naturaleza / Cultura</div>
+                            <div class="bg-gray-700 p-3 rounded-lg">Hombre / Mujer</div>
+                            <div class="bg-gray-700 p-3 rounded-lg">Mente / Cuerpo</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:col-span-1 flex justify-center order-1 md:order-2">
+                    <img src="https://placehold.co/200x200/FFED66/1a202c?text=Haraway" alt="Imagen de Donna Haraway" class="rounded-full shadow-lg border-4 border-highlight">
+                </div>
+            </section>
+            
+            <section id="ciberpoesia" class="bg-gray-800 rounded-lg shadow-2xl p-8">
+                <h2 class="text-4xl font-black text-highlight text-center mb-8">Ciberpoesía: Poesía en la Era Digital</h2>
+                <div class="max-w-4xl mx-auto">
+                    <h3 class="text-2xl font-bold mb-4">1. Definición y Concepto</h3>
+                    <p class="mb-6 text-lg">La **ciberpoesía** es poesía que surge **dentro del entorno digital**, aprovechando las posibilidades de la tecnología. No se limita al texto escrito: integra **hipertexto, multimedia, animación y participación del lector**.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start mt-12">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4">2. Breve Historia con Autorxs</h3>
+                            <ul class="space-y-6">
+                                <li class="flex items-start space-x-4">
+                                    <img src="https://placehold.co/80x80/FFED66/1a202c?text=Eugen" alt="Imagen de Eugen Gomringer" class="rounded-full shadow-lg">
+                                    <div class="flex-1">
+                                        <h4 class="text-xl font-bold text-highlight">Poesía concreta (1950s)</h4>
+                                        <p class="text-sm">Eugen Gomringer. Un precursor de la experimentación digital.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start space-x-4">
+                                    <img src="https://placehold.co/80x80/00CECB/1a202c?text=Ted+Nelson" alt="Imagen de Ted Nelson" class="rounded-full shadow-lg">
+                                    <div class="flex-1">
+                                        <h4 class="text-xl font-bold text-highlight">Net.art y hipertexto (1980s)</h4>
+                                        <p class="text-sm">Ted Nelson y Michael Joyce. Introducen la interactividad y no linealidad.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start space-x-4">
+                                    <img src="https://placehold.co/80x80/FF5E5B/1a202c?text=Young-Hae" alt="Imagen de Young-Hae" class="rounded-full shadow-lg">
+                                    <div class="flex-1">
+                                        <h4 class="text-xl font-bold text-highlight">Multimedia (S. XXI)</h4>
+                                        <p class="text-sm">Young-Hae Chang Heavy Industries y Marjorie Luesebrink. Combinan texto con sonido e imágenes.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4">3. Características con Ejemplos</h3>
+                            <div class="overflow-x-auto">
+                                <table class="w-full text-sm text-left rtl:text-right text-gray-400">
+                                    <thead class="text-xs text-gray-200 uppercase bg-gray-700">
+                                        <tr>
+                                            <th scope="col" class="px-6 py-3">Característica</th>
+                                            <th scope="col" class="px-6 py-3">Ejemplo real</th>
+                                            <th scope="col" class="px-6 py-3">Cómo se manifiesta</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="bg-gray-800 border-b border-gray-700">
+                                            <th scope="row" class="px-6 py-4 font-bold text-white whitespace-nowrap">Multimedialidad</th>
+                                            <td class="px-6 py-4">Young-Hae Chang Heavy Industries</td>
+                                            <td class="px-6 py-4">Texto animado, sincronizado con música, visualmente interactivo.</td>
+                                        </tr>
+                                        <tr class="bg-gray-700 border-b border-gray-600">
+                                            <th scope="row" class="px-6 py-4 font-bold text-white whitespace-nowrap">Interactividad</th>
+                                            <td class="px-6 py-4">afternoon, a story – M. Joyce</td>
+                                            <td class="px-6 py-4">Lector elige caminos, la historia y los poemas cambian según decisiones.</td>
+                                        </tr>
+                                        <tr class="bg-gray-800 border-b border-gray-700">
+                                            <th scope="row" class="px-6 py-4 font-bold text-white whitespace-nowrap">No linealidad</th>
+                                            <td class="px-6 py-4">Victory Garden – S. Moulthrop</td>
+                                            <td class="px-6 py-4">Diferentes rutas de lectura crean múltiples interpretaciones.</td>
+                                        </tr>
+                                        <tr class="bg-gray-700">
+                                            <th scope="row" class="px-6 py-4 font-bold text-white whitespace-nowrap">Estética experimental</th>
+                                            <td class="px-6 py-4">Rafaël Rozendaal</td>
+                                            <td class="px-6 py-4">Fallas visuales y colores crean un efecto poético y sensorial.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="text-sm mt-8 text-gray-400 text-center">En resumen: la ciberpoesía es un campo de **poiesis** contemporánea que explora nuevas formas de creación, rompiendo los límites del papel para habitar el espacio digital.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="escritura-experimental" class="bg-gray-800 rounded-lg shadow-2xl p-8">
+                <h2 class="text-4xl font-black text-highlight text-center mb-8">Escritura Experimental: Glitch y Collage Digital</h2>
+                <div class="max-w-4xl mx-auto">
+                    <h3 class="text-2xl font-bold mb-4">1. Definición y Concepto</h3>
+                    <p class="mb-6 text-lg">La **escritura experimental** busca romper las formas tradicionales de la narrativa y la poesía. Dos estrategias centrales en el entorno digital son el **glitch** (usar errores y fallas como recurso) y el **collage digital** (recombinar fragmentos de distintos medios). La clave es que la tecnología no solo es soporte, sino **material creativo**.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4">2. Glitch como Escritura</h3>
+                            <ul class="space-y-6">
+                                <li class="flex items-start space-x-4">
+                                    <img src="https://placehold.co/80x80/FFED66/1a202c?text=J.R.+Carpenter" alt="Imagen de J.R. Carpenter" class="rounded-full shadow-lg">
+                                    <div class="flex-1">
+                                        <h4 class="text-xl font-bold text-highlight">J.R. Carpenter</h4>
+                                        <p class="text-sm mt-1">En su obra, usa errores de red para explorar la memoria digital.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start space-x-4">
+                                    <img src="https://placehold.co/80x80/00CECB/1a202c?text=Nick+Montfort" alt="Imagen de Nick Montfort" class="rounded-full shadow-lg">
+                                    <div class="flex-1">
+                                        <h4 class="text-xl font-bold text-highlight">Nick Montfort</h4>
+                                        <p class="text-sm mt-1">Utiliza algoritmos para crear textos que se corrompen o repiten.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4">3. Collage Digital</h3>
+                            <ul class="space-y-6">
+                                <li class="flex items-start space-x-4">
+                                    <img src="https://placehold.co/80x80/FF5E5B/1a202c?text=Rafaël+Rozendaal" alt="Imagen de Rafaël Rozendaal" class="rounded-full shadow-lg">
+                                    <div class="flex-1">
+                                        <h4 class="text-xl font-bold text-highlight">Rafaël Rozendaal</h4>
+                                        <p class="text-sm mt-1">Crea páginas web con elementos visuales y tipográficos combinados como poesía visual.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start space-x-4">
+                                    <img src="https://placehold.co/80x80/FFED66/1a202c?text=Amaranth+Borsuk" alt="Imagen de Amaranth Borsuk" class="rounded-full shadow-lg">
+                                    <div class="flex-1">
+                                        <h4 class="text-xl font-bold text-highlight">Amaranth Borsuk</h4>
+                                        <p class="text-sm mt-1">Combina tipografía, imágenes y realidad aumentada en libros-poema interactivos.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-12 text-center">
+                        <h3 class="text-2xl font-bold mb-4 text-highlight">4. Convergencia: Glitch + Collage</h3>
+                        <p class="text-lg">Muchas obras experimentales combinan ambos, como los textos animados de **Young-Hae Chang Heavy Industries** que se distorsionan dentro de un collage de música y gráficos, creando una experiencia sensorial completa y no lineal.</p>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="imagenes-poeticas" class="bg-gray-800 rounded-lg shadow-2xl p-8">
+                <h2 class="text-4xl font-black text-highlight text-center mb-8">Creación de Imágenes Poéticas con Apps Accesibles</h2>
+                <div class="max-w-4xl mx-auto">
+                    <h3 class="text-2xl font-bold mb-4">1. Definición y Concepto</h3>
+                    <p class="mb-6 text-lg">La **imagen poética digital** combina texto, imagen y, a veces, sonido para transmitir sentidos y emociones más allá de la palabra escrita. No se trata solo de ilustrar un poema, sino de **hacer que la imagen sea parte del lenguaje poético**. La tecnología y las aplicaciones digitales permiten **crear, manipular y experimentar** con la forma y el contenido de manera inmediata y accesible.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4">2. Aplicaciones Accesibles</h3>
+                            <div class="overflow-x-auto">
+                                <table class="w-full text-sm text-left rtl:text-right text-gray-400">
+                                    <thead class="text-xs text-gray-200 uppercase bg-gray-700">
+                                        <tr>
+                                            <th scope="col" class="px-6 py-3">Aplicación</th>
+                                            <th scope="col" class="px-6 py-3">Función</th>
+                                            <th scope="col" class="px-6 py-3">Uso poético</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="bg-gray-800 border-b border-gray-700">
+                                            <th scope="row" class="px-6 py-4 font-bold text-white whitespace-nowrap">Canva</th>
+                                            <td class="px-6 py-4">Diseño gráfico</td>
+                                            <td class="px-6 py-4">Crear collages y animaciones sencillas.</td>
+                                        </tr>
+                                        <tr class="bg-gray-700 border-b border-gray-600">
+                                            <th scope="row" class="px-6 py-4 font-bold text-white whitespace-nowrap">Photopea</th>
+                                            <td class="px-6 py-4">Editor de imágenes</td>
+                                            <td class="px-6 py-4">Distorsionar fotos y textos, crear efectos glitch.</td>
+                                        </tr>
+                                        <tr class="bg-gray-800">
+                                            <th scope="row" class="px-6 py-4 font-bold text-white whitespace-nowrap">IA Generativa</th>
+                                            <td class="px-6 py-4">Generación de imágenes</td>
+                                            <td class="px-6 py-4">Crear imágenes surrealistas o simbólicas a partir de palabras.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4">3. Estrategias Poéticas con Imagen Digital</h3>
+                            <ul class="list-disc list-inside space-y-2 text-lg">
+                                <li>Superposición de texto e imagen: El texto se integra como elemento gráfico.</li>
+                                <li>Distorsión y glitch: Usar errores visuales como recurso estético.</li>
+                                <li>Collage digital: Combinar imágenes de diferentes fuentes.</li>
+                                <li>IA generativa: Crear imágenes abstractas o simbólicas para el poema.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="narrativas-territorio" class="bg-gray-800 rounded-lg shadow-2xl p-8">
+                <h2 class="text-4xl font-black text-highlight text-center mb-8">Narrativas del Territorio y Memoria Digital</h2>
+                <div class="max-w-4xl mx-auto">
+                    <h3 class="text-2xl font-bold mb-4">1. Definición y Concepto</h3>
+                    <p class="mb-6 text-lg">Las **narrativas del territorio** representan lugares, paisajes y comunidades a través de textos, imágenes, sonidos y multimedia. La **memoria digital** es el registro de estas narraciones en entornos digitales, permitiendo archivar, difundir y transformar historias y experiencias de manera colectiva e interactiva.</p>
+                    <h3 class="text-2xl font-bold mb-4">2. Estrategias Poéticas</h3>
+                    <ul class="list-disc list-inside space-y-2 text-lg">
+                        <li>Micro-narrativas del lugar: relatos breves que capturan la esencia de un espacio.</li>
+                        <li>Hibridación de medios: combinar texto, imagen, audio y video.</li>
+                        <li>Mapeo poético: crear mapas interactivos con contenido poético.</li>
+                        <li>Archivo colaborativo: construcción colectiva de memoria digital.</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    
+        <footer class="text-center mt-20 pt-8 border-t-2 border-gray-700">
+            <p class="text-gray-400">Una exploración visual de conceptos filosóficos.</p>
+        </footer>
+    
+    </div>
+</body>
+</html>
